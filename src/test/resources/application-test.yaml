@@ -1,0 +1,10 @@
+logging:
+  level:
+    root: warn
+    '[com.promineotech]': debug
+    
+spring:
+  datasource:
+    url: jdbc:h2:mem:jeep
+    
+    
